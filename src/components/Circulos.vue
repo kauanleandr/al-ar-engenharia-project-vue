@@ -1,6 +1,5 @@
 <template>
   <div class="circulos-exemplos">
-    <h1>Projetos Concluídos</h1>
     <div class="circulos-container">
       <a href="#" class="circulo">
         <img :src="require('@/assets/RESIDENCIAL.jpg')" alt="Residencial" />
@@ -16,34 +15,6 @@
       </a>
     </div>
   </div>
-
-  <section class="numbers">
-    <div class="container">
-      <div class="number-card">
-        <h3>+ de 13.000 m²</h3>
-        <p>em obras executadas</p>
-      </div>
-      <div class="number-card">
-        <h3>+ de 100</h3>
-        <p>obras entregues</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="differentials">
-    <div class="container">
-      <h2>Nossos Diferenciais</h2>
-      <ul>
-        <li>Todas as nossas obras são regularizadas</li>
-        <li>Nossas obras são acompanhadas diariamente por engenheiros civis</li>
-        <li>Comunicação assertiva, resolutiva e transparente</li>
-        <li>Equipe formada por colaboradores experientes</li>
-        <li>Prazo respeitado com cronograma estipulado</li>
-        <li>Relatórios semanais com acompanhamento físico e financeiro</li>
-        <li>Entrega com qualidade, superando expectativas</li>
-      </ul>
-    </div>
-  </section>
 </template>
 
 <script>
@@ -96,38 +67,4 @@ export default {
 
 
 /* fim do circulo */
-
-/* em obras executadas / obras entregues */
-
-.number-card {
-  display: inline-block;
-  width: 40%;
-  margin: 1rem;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar */
-  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Efeito suave */
-}
-
-.number-card h3 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 0.5rem;
-}
-.numbers {
-  display: grid; /* Usando Grid Layout */
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsivo */
-  gap: 20px; /* Espaçamento entre itens */
-  background: #f4f4f4;
-  padding: 2rem;
-  text-align: center;
-}
-.number-card:hover {
-  transform: translateY(-5px); /* Elevação ao passar o mouse */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-/* FIM / em obras executadas / obras entregues */
 </style>

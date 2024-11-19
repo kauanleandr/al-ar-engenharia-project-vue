@@ -4,7 +4,6 @@
 
         <div class="rodape-div-1">
             <div class="rodape-div-1-coluna">
-                <!-- elemento -->
                 <span><b>ENDEREÇO</b></span>
                 <p>ED. TROPICAL CENTER, AV. GOV. MAGALHES BARATA 695 SALA 103</p>
             </div>
@@ -12,26 +11,24 @@
 
         <div class="rodape-div-2">
             <div class="rodape-div-2-coluna">
-                <!-- elemento -->
                 <span><b>Contatos</b></span>
-                <p>@alcarengenharia</p>
-                <p>(91) 98737-7403</p>
+                <p><a href="https://www.instagram.com/alcarengenharia/" target="_blank">@alcarengenharia</a></p>
+                <p><a href="https://api.whatsapp.com/send/?phone=5591987377403&text&type=phone_number&app_absent=0" target="_blank">(91) 98737-7403</a></p>
                 <p>(91) 98242-2476</p>
             </div>
         </div>
 
         <div class="rodape-div-3">
             <div class="rodape-div-3-coluna">
-                <!-- elemento -->
                 <span><b>Links</b></span>
                 <p><a href="#sobre">Sobre</a></p>
                 <p><a href="#serviços">Serviços</a></p>
-                <p><a href="#Portfólio">Portfólio</a></p>
+                <p><a href="/portfolioAlçar2022.pdf" target="_blank">Portfólio</a></p>
             </div>
         </div>
 
     </div>
-    <p class="rodape-direitos">Kauanleandr © 2023 – Todos os Direitos Reservados.</p>
+    <p class="rodape-direitos"><a href="https://github.com/kauanleandr" target="_blank">Kauanleandr</a> © 2023 – Todos os Direitos Reservados.</p>
 </footer>
 </template>
 
@@ -42,19 +39,8 @@ export default {
 </script>
 
 <style scoped>
-.menu p {
-  margin-left: 3rem;
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s ease;
-}
-
-.menu p:hover {
-  color: #000000;
-}
-
 .rodape{
-    background-color: #3E4D54;
+    background-color: #5C6770;
     color: white;
     height: auto;
     width: 100%;
@@ -62,6 +48,9 @@ export default {
     font-family: helvetica;
     margin: 0; /* Garantindo que o rodapé ocupe toda a largura */
     padding: 0; /* Removendo qualquer padding adicional que possa interferir */
+}
+.rodape a:hover {
+  color: #23BACF;
 }
 .rodape a{
     text-decoration: none;
