@@ -1,6 +1,6 @@
 <template>
   <div class="topbar">
-    <div class="logo"><img src="/logo.png" alt="Logo" /></div>
+    <div class="logo">ALÇAR ENGENHARIA</div>
     <nav class="menu">
       <a href="#home">Home</a>
       <a href="#sobre">Sobre</a>
@@ -16,35 +16,36 @@ export default {
   name: "TopBar",
 };
 </script>
-<style scoped>
-.logo img {
-  width: 100px; /* Ajuste conforme necessário */
-  height: auto; /* Mantém a proporção da imagem */
-}
 
+<style scoped>
 .topbar {
-  margin-top:0%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
+  background-color: #3E4D54;
   color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
 .menu a {
-  margin-left: 3rem;
+  margin-left: 2rem;
   text-decoration: none;
   color: white;
+  font-size: 1.1rem;
   transition: color 0.3s ease;
 }
 
 .menu a:hover {
-  color: #00bcd4;
+  color: #22BACF;
 }
 </style>
