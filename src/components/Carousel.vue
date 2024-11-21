@@ -1,5 +1,13 @@
 <template>
-  <Carousel>
+  <Carousel
+    :autoplay="true"
+    :autoplayTimeout="5000"
+    :transition="500"
+    :mouse-drag="true"
+    :touch-drag="true"
+    wrap-around
+    responsive-breakpoints
+  >
     <Slide v-for="slide in slides" :key="slide.id">
       <img :src="slide.image" :alt="`Slide ${slide.id}`" class="carousel-image" />
     </Slide>
@@ -39,17 +47,8 @@ export default {
 .carousel-image {
   width: 100%;
   height: auto;
-  object-fit: cover;
-}
-</style>
-<style scoped>
-
-.carousel-image {
-  width: 1500px;
-  height: 500px;
-  object-fit: cover;
+  object-fit: cover; /* Ajusta para centralizar a imagem */
   display: block;
   margin: 0 auto;
 }
-
 </style>
