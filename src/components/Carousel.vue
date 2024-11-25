@@ -34,8 +34,8 @@ export default {
     return {
       slides: [
         { id: 1, image: "/Imgcarousel/slide1.jpg" },
-        { id: 2, image: "/Imgcarousel/slide2.jpg" },
-        { id: 3, image: "/Imgcarousel/slide3.avif" },
+        { id: 2, image: "/Imgcarousel/slide1.jpg" },
+        { id: 3, image: "/Imgcarousel/slide1.jpg" },
       ],
     };
   },
