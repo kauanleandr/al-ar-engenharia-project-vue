@@ -10,9 +10,9 @@
 
 <script>
 import Topbar from '@/components/layout/Topbar.vue';
-import Carousel from '@/components/Carousel.vue';
-import Circulos from '@/components/Circulos.vue';
-import Midpage from '@/components/Midpage.vue';
+import Carousel from '@/pages/Home/Carousel.vue';
+import Circulos from '@/pages/Home/Circulos.vue';
+import Midpage from '@/pages/Home/Midpage.vue';
 import Footer from '@/components/layout/Footer.vue';
 
 export default {

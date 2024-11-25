@@ -1,15 +1,15 @@
 <template>
   <div class="circulos-exemplos">
     <div class="circulos-container">
-      <a href="#" class="circulo">
+      <a href="/Residencial" class="circulo">
         <img :src="require('@/assets/imgcirculos/RESIDENCIAL.jpg')" alt="Residencial" />
         <span>RESIDENCIAL</span>
       </a>
-      <a href="#" class="circulo">
+      <a href="/Comercial" class="circulo">
         <img :src="require('@/assets/imgcirculos/COMERCIAL.jpg')" alt="Comercial" />
         <span>COMERCIAL</span>
       </a>
-      <a href="#" class="circulo">
+      <a href="/Industrial" class="circulo">
         <img :src="require('@/assets/imgcirculos/INDUSTRIAL.webp')" alt="Industrial" />
         <span>INDUSTRIAL</span>
       </a>

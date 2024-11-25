@@ -1,10 +1,11 @@
 <!-- <template>
-  </template> -->
+
+</template> -->
   
-  <script>
+<script>
   export default {
     name: 'VueSobre',
     components: {
     },
   };
-  </script>
+</script>

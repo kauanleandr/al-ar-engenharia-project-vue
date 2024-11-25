@@ -2,7 +2,7 @@
   <div class="topbar">
     <div class="logo"><img src="@/assets/logo.png" alt="logo"></div>
     <nav class="menu">
-      <a href="#Home">Home</a>
+      <a href="/">Home</a>
       <a href="#sobre">Sobre</a>
       <a href="#serviços">Serviços</a>
       <a href="/public/assets/portfolioAlçar2022.pdf" target="_blank">Portfólio</a>
