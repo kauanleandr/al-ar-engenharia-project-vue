@@ -42,13 +42,47 @@ export default {
 };
 </script>
 
-
 <style scoped>
+.carousel__slide {
+  margin-top: 105px;
+}
+
 .carousel-image {
-  width: 90%;
+  width: 95%;
   height: auto;
   object-fit: cover; /* Ajusta para centralizar a imagem */
   display: block;
   margin: 0 auto;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1024px) {
+  .carousel__icon {
+    display: none;
+  }
+  .carousel-image {
+    margin-top: 90px;
+    width: 100%; /* Diminui a largura das imagens em telas menores */
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel__slide {
+    margin-top: 90px; /* Ajusta a margem superior */
+  }
+  
+  .carousel-image {
+    width: 85%; /* Diminui ainda mais a largura das imagens em telas menores */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel__slide {
+    margin-top: 40px; /* Ajusta ainda mais a margem em telas muito pequenas */
+  }
+
+  .carousel-image {
+    width: 80%; /* A largura da imagem continua a diminuir */
+  }
 }
 </style>
