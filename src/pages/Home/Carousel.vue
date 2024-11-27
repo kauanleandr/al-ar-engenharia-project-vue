@@ -10,7 +10,6 @@ responsive-breakpoints
 <Slide v-for="slide in slides" :key="slide.id">
   <img :src="slide.image" :alt="`Slide ${slide.id}`" class="carousel-image" />
 </Slide>
-    
 <template #addons>
   <Navigation />
   <Pagination />
